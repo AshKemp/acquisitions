@@ -28,3 +28,26 @@
 {"level":"info","message":"::1 - - [04/Apr/2026:16:45:29 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquistions-api"}
 {"level":"info","message":"::1 - - [04/Apr/2026:16:45:35 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 32 \"-\" \"HTTPie\"","service":"acquistions-api"}
 {"level":"info","message":"::1 - - [04/Apr/2026:16:45:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [04/Apr/2026:18:06:51 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [04/Apr/2026:18:08:48 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"email":"kmuraliashwin@gmail.com","level":"info","message":"User registered successfully:","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [04/Apr/2026:18:09:03 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 109 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User created successfully with email: kmuraliashwin@gmail.com","service":"acquistions-api"}
+{"email":"kmuraliashwin@gmail.com","level":"info","message":"User registered successfully:","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [05/Apr/2026:05:22:56 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User created successfully with email: jsmastery@gmail.com","service":"acquistions-api"}
+{"email":"jsmastery@gmail.com","level":"info","message":"User registered successfully:","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [05/Apr/2026:05:34:31 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 105 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User authenticated successfully with email: jsmastery@gmail.com","service":"acquistions-api"}
+{"email":"jsmastery@gmail.com","level":"info","message":"User signed in successfully:","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [05/Apr/2026:06:08:56 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 104 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User authenticated successfully with email: kmuraliashwin@gmail.com","service":"acquistions-api"}
+{"email":"kmuraliashwin@gmail.com","level":"info","message":"User signed in successfully:","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [05/Apr/2026:06:09:04 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [05/Apr/2026:06:09:41 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User authenticated successfully with email: kmuraliashwin@gmail.com","service":"acquistions-api"}
+{"email":"kmuraliashwin@gmail.com","level":"info","message":"User signed in successfully:","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [05/Apr/2026:06:09:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [05/Apr/2026:06:09:50 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquistions-api"}
