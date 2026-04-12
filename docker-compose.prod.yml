@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      target: prod
+    container_name: acquisitions-app-prod
+    env_file:
+      - .env.production
+    ports:
+      - '3000:3000'
+    command: node src/index.js
+    restart: unless-stopped

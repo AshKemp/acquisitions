@@ -34,7 +34,10 @@ export const authenticateUser = async ({ email, password }) => {
       throw new Error('User not found');
     }
 
-    const isPasswordValid = await comparePassword(password, existingUser.password);
+    const isPasswordValid = await comparePassword(
+      password,
+      existingUser.password
+    );
     if (!isPasswordValid) {
       throw new Error('Invalid password');
     }
@@ -49,15 +52,16 @@ export const authenticateUser = async ({ email, password }) => {
 
 export const createUser = async ({ name, email, password, role = 'user' }) => {
   try {
-    const existingUser = db
+    const [existingUser] = await db
       .select()
-      .from('users')
+      .from(users)
       .where(eq(users.email, email))
       .limit(1);
 
-    if (existingUser.length > 0) {
+    if (existingUser) {
       throw new Error('User with this email already exists');
     }
+
     const password_hash = await hashPassword(password);
     const [newUser] = await db
       .insert(users)
@@ -73,6 +77,17 @@ export const createUser = async ({ name, email, password, role = 'user' }) => {
     logger.info(`User created successfully with email: ${email}`);
     return newUser;
   } catch (error) {
+    const postgresErrorCode = error?.cause?.code || error?.code;
+    const postgresConstraint = error?.cause?.constraint || error?.constraint;
+
+    if (
+      postgresErrorCode === '23505' ||
+      postgresConstraint === 'users_email_unique'
+    ) {
+      logger.warn('Duplicate email detected while creating user:', { email });
+      throw new Error('User with this email already exists');
+    }
+
     logger.error('Error creating user:', error);
     throw error;
   }
