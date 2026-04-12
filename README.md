@@ -84,3 +84,5 @@ docker compose --env-file .env.production -f docker-compose.prod.yml down
   - `NEON_LOCAL=false`
 
 The app’s database config (`src/config/database.js`) automatically switches Neon serverless driver settings based on `NEON_LOCAL`.
+
+## Updated Secret
