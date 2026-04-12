@@ -1,3 +1,9 @@
 node_modules
-.env.*.neon_local/
+
+# environment files
+.env
+.env.*
+!.env.example
+
+.neon_local/
 .neon_local/
