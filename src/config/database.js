@@ -14,9 +14,9 @@ import { drizzle } from 'drizzle-orm/neon-http';
 //   neonConfig.poolQueryViaFetch = true;
 // }
 if(process.env.NODE_ENV === 'development') {
-    neonConfig.fetchEndpoint = 'http://neon-local:5432/sql';
-    neonConfig.useSecureWebSocket = false;
-    neonConfig.poolQueryViaFetch = true;
+  neonConfig.fetchEndpoint = 'http://neon-local:5432/sql';
+  neonConfig.useSecureWebSocket = false;
+  neonConfig.poolQueryViaFetch = true;
 }
 
 if (!process.env.DATABASE_URL) {

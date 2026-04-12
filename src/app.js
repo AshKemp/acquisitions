@@ -5,6 +5,8 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from '#routes/auth.routes.js';
+import userRoutes from '#routes/users.routes.js';
+import { authMiddleware } from '#middleware/auth.middleware.js';
 import securityMiddleware from '#middleware/security.middleware.js';
 
 const app = express();
@@ -17,6 +19,7 @@ app.use(
   morgan('combined', { stream: { write: msg => logger.info(msg.trim()) } })
 );
 
+app.use(authMiddleware);
 app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
@@ -39,5 +42,6 @@ app.get('/api', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
 
 export default app;

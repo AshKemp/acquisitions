@@ -88,3 +88,61 @@
 {"level":"info","message":"User created successfully with email: abc@gmail.com","service":"acquistions-api"}
 {"email":"abc@gmail.com","level":"info","message":"User registered successfully:","service":"acquistions-api"}
 {"level":"info","message":"::ffff:172.18.0.1 - - [11/Apr/2026:17:29:30 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 99 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:05:55:20 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:05:55:25 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"error","message":"Error fetching users: Cannot convert undefined or null to object","service":"acquistions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching users: Cannot convert undefined or null to object","service":"acquistions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:05:55:30 +0000] \"GET /api/users HTTP/1.1\" 500 1061 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:05:57:50 +0000] \"GET /api/ HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:05:58:18 +0000] \"GET /api/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"error","message":"Error fetching users: Cannot convert undefined or null to object","service":"acquistions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching users: Cannot convert undefined or null to object","service":"acquistions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:05:58:22 +0000] \"GET /api/users HTTP/1.1\" 500 1061 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:05:59:03 +0000] \"GET /api/users HTTP/1.1\" 200 370 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:27:48 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:27:50 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:27:54 +0000] \"GET /api/users HTTP/1.1\" 401 37 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:27:59 +0000] \"GET /api/users/2 HTTP/1.1\" 401 37 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"User authenticated successfully with email: kmuraliashwin@gmail.com","service":"acquistions-api"}
+{"email":"kmuraliashwin@gmail.com","level":"info","message":"User signed in successfully:","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:33:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:33:54 +0000] \"GET /api/users HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:34:12 +0000] \"GET /api/users HTTP/1.1\" 200 370 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"id":2,"level":"info","message":"Fetched user by id","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:34:27 +0000] \"GET /api/users/2 HTTP/1.1\" 200 195 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"id":1,"level":"info","message":"Fetched user by id","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:34:31 +0000] \"GET /api/users/1 HTTP/1.1\" 200 200 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"id":2,"level":"info","message":"Fetched user by id","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:34:34 +0000] \"GET /api/users/2 HTTP/1.1\" 200 195 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:34:36 +0000] \"GET /api/users/3 HTTP/1.1\" 404 28 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"id":2,"level":"info","message":"Fetched user by id","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:34:39 +0000] \"GET /api/users/2 HTTP/1.1\" 200 195 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:38:56 +0000] \"GET /api/users HTTP/1.1\" 200 370 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User created successfully with email: ashwin@user.com","service":"acquistions-api"}
+{"email":"ashwin@user.com","level":"info","message":"User registered successfully:","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:39:48 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:39:53 +0000] \"GET /api/users HTTP/1.1\" 200 520 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User authenticated successfully with email: ashwin@user.com","service":"acquistions-api"}
+{"email":"ashwin@user.com","level":"info","message":"User signed in successfully:","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:40:27 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 105 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:40:45 +0000] \"GET /api/users HTTP/1.1\" 200 520 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"id":2,"level":"info","message":"Fetched user by id","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:41:00 +0000] \"GET /api/users/2 HTTP/1.1\" 200 195 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"id":3,"level":"info","message":"Fetched user by id","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:41:05 +0000] \"GET /api/users/3 HTTP/1.1\" 200 196 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:41:50 +0000] \"DELETE /api/users/1 HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"deletedBy":1,"id":1,"level":"info","message":"Deleted user","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:42:02 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 39 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"id":3,"level":"info","message":"Fetched user by id","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:42:11 +0000] \"GET /api/users/3 HTTP/1.1\" 200 196 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"Fetching all users","service":"acquistions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:42:15 +0000] \"GET /api/users HTTP/1.1\" 200 366 \"-\" \"HTTPie\"","service":"acquistions-api"}
