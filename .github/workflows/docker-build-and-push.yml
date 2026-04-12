@@ -28,7 +28,7 @@ jobs:
         with:
           images: ${{ env.IMAGE_NAME }}
           tags: |
-            type=ref
+            type=ref,event=branch
             type=sha
             type=raw,value=latest
             type=raw,value=prod-${{ steps.date.outputs.timestamp }}
