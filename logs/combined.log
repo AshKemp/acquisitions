@@ -146,3 +146,6 @@
 {"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:42:11 +0000] \"GET /api/users/3 HTTP/1.1\" 200 196 \"-\" \"HTTPie\"","service":"acquistions-api"}
 {"level":"info","message":"Fetching all users","service":"acquistions-api"}
 {"level":"info","message":"::ffff:172.18.0.1 - - [12/Apr/2026:06:42:15 +0000] \"GET /api/users HTTP/1.1\" 200 366 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Apr/2026:07:11:45 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Apr/2026:07:11:45 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Apr/2026:07:11:45 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquistions-api"}
